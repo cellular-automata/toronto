@@ -1,0 +1,29 @@
+{
+  "name": "toronto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "toronto.js",
+  "engines": {
+    "node": ">=5.x"
+  },
+  "scripts": {
+    "start": "node start.js",
+    "test": "mocha test/*/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cellular-automata/toronto.git"
+  },
+  "author": "",
+  "license": "Mozilla Public License",
+  "bugs": {
+    "url": "https://github.com/cellular-automata/toronto/issues"
+  },
+  "homepage": "https://github.com/cellular-automata/toronto",
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "mocha-jsdom": "^0.2.1"
+  },
+  "dependencies": {
+  }
+}
